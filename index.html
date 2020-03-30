@@ -13,8 +13,18 @@
   </head>
   <body>
     <h1>看啥</h1>
+    <p id="demo">A Paragraph.</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    
+    <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Paragraph changed.";
+    }
+    </script>
+    
     <div class="pic">
       <img src="unnamed.gif">
     </div>
+    
   </body>
 </html>
